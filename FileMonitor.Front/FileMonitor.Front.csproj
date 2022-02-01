@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <BaseOutputPath></BaseOutputPath>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FIleMonitor.BackgroundService\FIleMonitor.BackgroundService.csproj" />
+    <ProjectReference Include="..\FileMonitor.Domain\FileMonitor.Domain.csproj" />
+    <ProjectReference Include="..\FileMonitor.Services\FileMonitor.Services.csproj" />
+  </ItemGroup>
+</Project>

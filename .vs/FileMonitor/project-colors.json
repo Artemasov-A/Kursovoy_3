@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "00fe674d-b9bf-44f1-a602-9d9ebb670580": {
+      "ProjectGuid": "00fe674d-b9bf-44f1-a602-9d9ebb670580",
+      "DisplayName": "FileMonitor.Front",
+      "ColorIndex": 0
+    },
+    "e54635c8-85ae-4bec-85ff-4a64aa7ebfe4": {
+      "ProjectGuid": "e54635c8-85ae-4bec-85ff-4a64aa7ebfe4",
+      "DisplayName": "FileMonitor.BackgroundService",
+      "ColorIndex": 1
+    },
+    "b14bfbb9-7972-4482-b09b-ce2be85de205": {
+      "ProjectGuid": "b14bfbb9-7972-4482-b09b-ce2be85de205",
+      "DisplayName": "FileMonitor.Services",
+      "ColorIndex": 2
+    },
+    "b1ae9698-e731-44f7-983d-e013663c045e": {
+      "ProjectGuid": "b1ae9698-e731-44f7-983d-e013663c045e",
+      "DisplayName": "FileMonitor.Domain",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "4e161176-00f1-4d66-b811-88d9e1fa66f0": {
+      "ProjectGuid": "4e161176-00f1-4d66-b811-88d9e1fa66f0",
+      "DisplayName": "FIleMonitor.BackgroundService",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

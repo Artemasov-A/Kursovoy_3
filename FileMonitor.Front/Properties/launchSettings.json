@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FileMonitor": {
+      "commandName": "Project",
+      "workingDirectory": "H:\\Project\\FileMonitor"
+    }
+  }
+}

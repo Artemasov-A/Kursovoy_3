@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FIleMonitor.BackgroundService": {
+      "commandName": "Project",
+      "workingDirectory": "H:\\Project\\FileMonitor"
+    }
+  }
+}
