@@ -2,7 +2,10 @@
   "profiles": {
     "FileMonitor": {
       "commandName": "Project",
-      "workingDirectory": "H:\\Project\\FileMonitor"
+      "workingDirectory": "H:\\Project\\FileMonitor",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
     }
   }
 }

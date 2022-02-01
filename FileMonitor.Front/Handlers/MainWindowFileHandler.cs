@@ -1,4 +1,5 @@
-﻿using FileMonitor.Services.Services;
+﻿using FileMonitor.BackgroundService;
+using FileMonitor.Services.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -17,6 +18,11 @@ namespace FileMonitor.Front.Handlers
         {
             Paths = new ObservableCollection<string>();
             _fileService = new FileService();
+            
+            if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") != "Development")
+            {
+                Constraints.BackgroundApplicationNestedFolder = string.Empty;
+            }
         }
 
         public IList<string> InitializePaths()
